@@ -1,0 +1,46 @@
+div {
+  border-style: solid;
+  border-width: 2px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+#content {
+  background-color: #800000;
+  font-family: monospace;
+}
+
+#headerBox {
+  background-image: linear-gradient(to right, #606060, #909090, #606060);
+  text-align: center;
+  color: #FFFFFF;
+  border-color: #000000;
+}
+
+#linksBox {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #606060, #909090, #606060);
+  border-color: #000000;
+}
+
+#paraBoxes {
+  display: flex;
+  background-image: linear-gradient(to right, #606060, #909090, #606060);
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.paraBox {
+  color: #FFFFFF;
+  background-color: #800000;
+  flex: auto;
+  min-width: 500px;
+  border-color: #000000;
+}
+
+a {
+  color: #FFFFFF;
+  font-style: italic;
+}
